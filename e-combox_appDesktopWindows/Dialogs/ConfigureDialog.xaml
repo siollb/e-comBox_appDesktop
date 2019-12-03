@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="e_combox_appDesktopWindows.Dialogs.ConfigureDialog"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:e_combox_appDesktopWindows.Dialogs"
+             xmlns:wpf="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Vertical">
+
+            <Label Name="proxy" VerticalAlignment="Center" HorizontalAlignment="Center"
+                   FontSize="18" Grid.Row="0"
+               Content="{Binding AdresseProxy}"/>
+
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="1"
+                    Margin="0 16 0 0">
+            <Button IsDefault="True" Style="{DynamicResource MaterialDesignFlatButton}"
+                    Command="{Binding CancelConfigureDialogCommand}">
+                OK
+            </Button>
+        </StackPanel>
+    </Grid>
+</UserControl>
