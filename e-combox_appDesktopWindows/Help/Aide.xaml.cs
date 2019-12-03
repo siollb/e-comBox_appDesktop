@@ -30,7 +30,7 @@ namespace e_combox_appDesktopWindows.H_elp
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MailMessage msg = new MailMessage("rutily2ajeux@gmail.com",textBoxEmail.Text,textBoxObjet.Text,textBoxMessage.Text);
+            MailMessage msg = new MailMessage("adresse@mail",textBoxEmail.Text,textBoxObjet.Text,textBoxMessage.Text);
         }
     }
 }
