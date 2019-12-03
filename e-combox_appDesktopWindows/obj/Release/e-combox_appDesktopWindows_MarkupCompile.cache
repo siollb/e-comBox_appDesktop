@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\chris\Source\Repos\e-comBox\e-combox_appDesktopWindows\obj\Release\
+C:\Users\chris\Source\Repos\e-comBox_appDesktop\e-combox_appDesktopWindows\obj\Release\
 e_combox_appDesktopWindows
 none
 false
 TRACE
-C:\Users\chris\Source\Repos\e-comBox\e-combox_appDesktopWindows\App.xaml
-61360338325
+C:\Users\chris\Source\Repos\e-comBox_appDesktop\e-combox_appDesktopWindows\App.xaml
+8-155263413
 
-11-537349218
-17-268563179
-About\about.xaml;Docker\docker.xaml;e-comBox\EcomBox.xaml;Help\Aide.xaml;MainWindow.xaml;Settings\param.xaml;
+16646783427
+18-1129331394
+About\about.xaml;Dialogs\ConfigureDialog.xaml;Dialogs\ConfigureProgressDialog.xaml;Docker\docker.xaml;e-comBox\EcomBox.xaml;Help\Aide.xaml;MainWindow.xaml;Settings\param.xaml;
 
 True
 
